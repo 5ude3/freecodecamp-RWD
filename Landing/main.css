@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    font-size: 3em;
+}
+nav {
+    background-color: #4f4b4b;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    min-height: 70px;
+}
+img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 50px;
+    width: 20%;
+}
+nav li {
+    display: flex;
+    color: #e30040;
+    text-align: right;
+    position: relative;
+}
+ul {
+  position: absolute;
+  left: 700px;
+  top: 40px;
+}
+#s2, #form-div {
+  text-align: center;
+}
+#email {
+    color: darkgreen;
+    border: darkred;
+    border-width: 200px;
+    border-radius: 5px;
+    width: 15%;
+    height: 20px;
+}
+#submit {
+    background-color: #e30040;
+    border-radius: 5px;
+  }
+ p {
+    font-size: 20px;
+    color: grey;
+  }  
+@media screen and (max-width: 500px) {
+    body {
+        background-color: white;
+    }
+}

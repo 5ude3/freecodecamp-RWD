@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Survey-form</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">Form</h1>
+            <p id="description">The survey is to survey things.</p>
+                <form id="survey-form">
+                    <label for="name" id="name-label">Name</label><br>
+                    <input type="text" placeholder="Enter your name" class="name" id="name" required><br><br>
+
+                    <label id="email-label">Email</label><br>
+                    <input type="email" id="email" placeholder="name@example.com" required><br><br>
+
+                    <label id="number-label">Age</label><br>
+                    <input type="number" id="number" placeholder="00" min="1" max="100" required><br><br>
+                    
+                    <label>Sex</label><br>
+
+                    <input type="radio" name="Gender" value="Male" id="male">
+                    <label  for="male">Male</label>
+
+                    <input type="radio" name="Gender" value="Female" id="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" name="Gender" value="Others" id="others">
+                    <label for="others">Others</label><br><br>
+
+                    <p>What is your favourite GOT character?</p> 
+                    <select name="characters" id="dropdown">
+                        <option value="Select">Select</option>
+                        <option value="Arya">Arya</option>
+                        <option value="Jon Snow">Jon Snow</option>
+                        <option value="Tyrion Lannister">Tyrion Lannister</option>
+                    </select>
+                    <p>Choose your favourite sport</p>
+                    <label for="1">Football</label>
+                    <input type="checkbox" value="Football" id="1"><br>
+
+                    <label for="2">Batminton</label>
+                    <input type="checkbox" value="Batminton" id="2"><br>
+
+                    <label for="3">Basketball</label>
+                    <input type="checkbox" value="Basketball" id="3"><br>
+
+                    <label for="4">Volleyball</label>
+                    <input type="checkbox" value="Volleyball" id="4"><br>
+
+                    <label for="5">Cricket</label>
+                    <input type="checkbox" value="Cricket" id="5"><br>
+
+                    <p>Suggessions or feedback about the page</p>
+                    <textarea placeholder="Comment here"></textarea><br>
+                    <button id="submit">Submit</button>
+                </form>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+table,th,tr,td
+    {
+        border: 2px solid rgb(92, 89, 89);
+        font-family: monospace;
+    } 
+table 
+    {
+        padding: auto;
+    }
+img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 40px;
+}          
+#img-caption 
+    {
+        font-family: monospace;
+        font-size: 25px;
+    }
+body{
+        background-color: #000;
+        color: rgba(81, 211, 81, 0.9);
+      }
+#tribute-link {
+        color: rgba(81, 211, 81, 0.9);
+      }

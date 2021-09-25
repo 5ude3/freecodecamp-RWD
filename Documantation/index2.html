@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+      <header>HTML</header>
+        <ul class="li">
+            <li><a class="nav-link" href="#Introduction_to_HTML">Introduction to HTML</a></li>
+            <li><a class="nav-link" href="#Elements">Elements</a></li>
+            <li><a class="nav-link" href="#Headings">Headings</a></li>
+            <li><a class="nav-link" href="#Paragraphs">Paragraphs</a></li>
+            <li><a class="nav-link" href="#Comments">Comments</a></li>
+            <li><a class="nav-link" href="#Links">Links</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <div>
+            <section class="main-section" id="Introduction_to_HTML">
+                <header>Introduction to HTML</header>
+                <p>
+                    HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+                </p>
+                <p>
+                    "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+                </p>
+                <br>
+                <br>
+            </section>
+            <section class="main-section" id="Elements">
+                <header>Elements</header>
+                <p>
+                    The HTML element is everything from the start tag to the end tag:
+                </p>
+                <code>
+                    &lt;h1>My First Heading&lt;/h1><br>
+                    &lt;p>My first paragraph.&lt;/p>
+                </code>
+                <br>
+                <br>
+            </section>
+            <section class="main-section" id="Headings">
+                <header>Headings</header>
+                <p>HTML headings are defined with the &lt;h1> to &lt;h6> tags.<br>
+                    &lt;h1> defines the most important heading. &lt;h6> defines the least important heading.</p>
+                    <code>
+                    &lt;h1>Heading 1&lt;/h1><br>
+                    &lt;h2>Heading 2&lt;/h2><br>
+                    &lt;h3>Heading 3&lt;/h3><br>
+                    &lt;h4>Heading 4&lt;/h4><br>
+                    &lt;h5>Heading 5&lt;/h5><br>
+                    &lt;h6>Heading 6&lt;/h6><br>
+                    </code>
+                    <ul>
+                        <li style="font-size: 2em;">Heading 1</li>
+                        <li style="font-size: 1.5em;">Heading 2</li>
+                        <li style="font-size: 1.17em;">Heading 3</li>
+                        <li style="font-size: 20px;">Heading 4</li>
+                        <li style="font-size: .83em;">Heading 5</li>
+                        <li style="font-size: .67em;">Heading 6</li>
+                    </ul>
+                    <br>
+                    <br>
+            </section>
+            <section class="main-section" id="Paragraphs">
+                <header>Paragraphs</header>
+                <p>The HTML &lt;p> element defines a paragraph.<br>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+                    <code>
+                        &lt;p>This is a paragraph.&lt;/p><br>
+                        &lt;p>This is another paragraph.&lt;/p>
+                    </code>
+                    <br>
+                    <br>
+            </section>
+            <section class="main-section" id="Comments">
+                <header>Comments</header>
+                <p>You can add comments to your HTML source by using the following syntax:</p>
+                    <code>&lt;!-- Write your comments here --></code>
+                    <p>Notice that there is an exclamation point (!) in the start tag, but not in the end tag.</p>
+                    <code>&lt;!-- This is a comment --><br>
+                        &lt;p>This is a paragraph.&lt;/p><br>
+                        &lt;!-- Remember to add more information here -->
+                    </code>
+                    <br>
+                    <br>
+            </section>
+            <section class="main-section" id="Links">
+                <header>Links</header>
+                <p>Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+                    <p>HTML links are hyperlinks.<br>You can click on a link and jump to another document.<br>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+                    <p>Syntax</p>
+                    <p>The HTML &lt;a> tag defines a hyperlink. It has the following syntax:</p>
+                    <code>&lt;a href="url">link text&lt;/a></code>
+                    <p>The most important attribute of the &lt;a> element is the href attribute, which indicates the link's destination.<br>The link text is the part that will be visible to the reader.<br>Clicking on the link text, will send the reader to the specified URL address.</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
