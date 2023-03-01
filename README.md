@@ -1,2 +1,2 @@
 # freecodecamp-RWD
-FreeCodeCamp's Responsive Web Development
+FreeCodeCamp's Responsive Web Design
